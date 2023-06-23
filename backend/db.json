@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "samuele.madrigali@gmail.com",
+      "password": "$2a$10$DEuboGTLyoz9cOWd0X9E7OjYJwl/Y1oJUx1c.LI8sovlwN8Snu.26",
+      "name": "Samuele Madrigali",
+      "id": 1
+    },
+    {
+      "email": "mario@rossi.it",
+      "password": "$2a$10$0O222SPe.KbnTl9XEiKKI.0j2u7PyaO9oIFxMVxp9eFoBQOy7N3l6",
+      "name": "Mario Rossi",
+      "id": 2
+    },
+    {
+      "email": "sergio@rossi.it",
+      "password": "$2a$10$TxoP5I86BqdpfJe4mt9lXOx10OOMecIEdhAE5Itz.Iz66x3oE75Ce",
+      "name": "Sergio Rossi",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "author": {
+        "name": "Franco",
+        "surname": "Rossi",
+        "avatar": "https://m.media-amazon.com/images/M/MV5BNzEzMzYzMzYxMV5BMl5BanBnXkFtZTcwNTk2MDg4NQ@@._V1_.jpg"
+      },
+      "time": "10:10",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": "https://via.placeholder.com/600x300",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "author": {
+        "name": "Nicoletta",
+        "surname": "Bianchi",
+        "avatar": "https://img.freepik.com/free-photo/front-portrait-woman-with-beauty-face_186202-6146.jpg?w=2000"
+      },
+      "time": "10:12",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "image": null,
+      "userId": 2
+    }
+  ]
+}

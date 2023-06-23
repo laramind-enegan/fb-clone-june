@@ -1,0 +1,28 @@
+/*-------------------------------- 
+    Containers 
+----------------------------------*/
+.container {
+  padding: 0 var(--space-md);
+  margin: auto;
+
+  &-xl {
+    @extend .container;
+    max-width: var(--container-xl);
+  }
+  &-lg {
+    @extend .container;
+    max-width: var(--container-lg);
+  }
+  &-md {
+    @extend .container;
+    max-width: var(--container-md);
+  }
+  &-sm {
+    @extend .container;
+    max-width: var(--container-sm);
+  }
+  &-xs {
+    @extend .container;
+    max-width: var(--container-xs);
+  }
+}

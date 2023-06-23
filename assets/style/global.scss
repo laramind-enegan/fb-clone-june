@@ -1,0 +1,14 @@
+/*-------------------------------- 
+    Project 
+----------------------------------*/
+@import "00-css-variables.scss";
+@import "01-reset.scss";
+@import "02-containers.scss";
+@import "03-typography.scss";
+@import "04-helpers.scss";
+@import "05-form-elements.scss";
+@import "06-grid.scss";
+
+body {
+  background-color: var(--bg-color);
+}

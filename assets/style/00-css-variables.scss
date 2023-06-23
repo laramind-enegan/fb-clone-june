@@ -1,0 +1,63 @@
+/*-------------------------------- 
+	CSS Variables 
+----------------------------------*/
+:root {
+  /*--------------------
+        Colors
+    ---------------------*/
+  --primary-color-400: #2473e1;
+  --primary-color-350: #1977f2;
+  --primary-color-300: #6691ec;
+  --primary-color-250: #99b5f2;
+  --primary-color-200: #ccdaf9;
+
+  --secondary-color-400: #18191a;
+  --secondary-color-350: #242526;
+  --secondary-color-300: #393a3b;
+  --secondary-color-250: #b8bbbf;
+
+  --success-color: #35a420;
+  --error-color: #ff4949;
+  --warning-color: #ffc120;
+
+  --bg-color: var(--secondary-color-400);
+  --text-color: var(--secondary-color-250);
+  --text-color-light: #ffffff;
+
+  /*--------------------
+        Containers Size
+    ---------------------*/
+  --container-xs: 33.75rem;
+  --container-sm: 45rem;
+  --container-md: 60rem;
+  --container-lg: 71.25rem;
+  --container-xl: 82.5rem;
+
+  /*--------------------
+        Spacing Values
+    ---------------------*/
+  --space-xxxs: 0.25rem;
+  --space-xxs: 0.375rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.25rem;
+  --space-xxl: 5.25rem;
+  --space-xxxl: 8.5rem;
+
+  /*--------------------
+        Typography
+    ---------------------*/
+  --text-base-size: 1em;
+  --heading-line-height: 1.2;
+  --body-line-height: 1.4;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-xxl: 1.5625rem;
+  --text-xxxl: 2.1875rem;
+}

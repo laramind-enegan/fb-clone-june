@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev & json-server-auth ./backend/db.json --port 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@types/node": "^18",
+    "nuxt": "^3.5.2",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.4"
+  }
+}

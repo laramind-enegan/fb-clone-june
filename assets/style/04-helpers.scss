@@ -1,0 +1,210 @@
+/*-------------------------------- 
+	HELPERS 
+----------------------------------*/
+
+$spacing: (
+  "space-xxxs": var(--space-xxxs),
+  "space-xxs": var(--space-xxs),
+  "space-xs": var(--space-xs),
+  "space-sm": var(--space-sm),
+  "space-md": var(--space-md),
+  "space-lg": var(--space-lg),
+  "space-xl": var(--space-xl),
+  "space-xxl": var(--space-xxl),
+  "space-xxxl": var(--space-xxxl),
+);
+
+/*-------------------------------- 
+	CSS Classes 
+----------------------------------*/
+@each $type, $value in $spacing {
+  .m-#{$type} {
+    margin: var(--#{$type});
+  }
+}
+.m-auto {
+  margin: auto !important;
+}
+
+@each $type, $value in $spacing {
+  .mt-#{$type} {
+    margin-top: var(--#{$type});
+  }
+}
+.mt-auto {
+  margin-top: auto !important;
+}
+.mt-0 {
+  margin-top: 0;
+}
+
+@each $type, $value in $spacing {
+  .mb-#{$type} {
+    margin-bottom: var(--#{$type});
+  }
+}
+.mb-auto {
+  margin-bottom: auto !important;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+@each $type, $value in $spacing {
+  .my-#{$type} {
+    margin-top: var(--#{$type});
+    margin-bottom: var(--#{$type});
+  }
+}
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@each $type, $value in $spacing {
+  .ml-#{$type} {
+    margin-left: var(--#{$type});
+  }
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.ml-0 {
+  margin-left: 0;
+}
+
+@each $type, $value in $spacing {
+  .mr-#{$type} {
+    margin-right: var(--#{$type});
+  }
+}
+.mr-auto {
+  margin-right: auto !important;
+}
+.mr-0 {
+  margin-right: 0;
+}
+
+@each $type, $value in $spacing {
+  .mx-#{$type} {
+    margin-left: var(--#{$type});
+    margin-right: var(--#{$type});
+  }
+}
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.mr-x {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@each $type, $value in $spacing {
+  .p-#{$type} {
+    padding: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .pt-#{$type} {
+    padding-top: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .pb-#{$type} {
+    padding-bottom: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .py-#{$type} {
+    padding-top: var(--#{$type});
+    padding-bottom: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .pl-#{$type} {
+    padding-left: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .pr-#{$type} {
+    padding-right: var(--#{$type});
+  }
+}
+
+@each $type, $value in $spacing {
+  .px-#{$type} {
+    padding-left: var(--#{$type});
+    padding-right: var(--#{$type});
+  }
+}
+/*-------------------------------- 
+	FLEXBOX 
+----------------------------------*/
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+/*-------------------------------- 
+	TEXT 
+----------------------------------*/
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-underline {
+  text-decoration: underline;
+}
+/*-------------------------------- 
+	DISPLAY 
+----------------------------------*/
+.d-block {
+  display: block;
+}
+/*-------------------------------- 
+	WIDTH
+----------------------------------*/
+.w-100 {
+  width: 100%;
+}
+/*-------------------------------- 
+	CURSOR 
+----------------------------------*/
+.cursor-pointer {
+  cursor: pointer;
+}
+/*-------------------------------- 
+	ERRORS 
+----------------------------------*/
+.error {
+  color: var(--error-color);
+  font-size: var(--text-sm);
+}

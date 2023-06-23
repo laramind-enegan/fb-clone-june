@@ -1,0 +1,54 @@
+/*-------------------------------- 
+    Typography 
+----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lato:wght@300;400;700&display=swap");
+
+body {
+  color: var(--text-color);
+  font-size: var(--text-base-size);
+  font-family: "Lato", sans-serif;
+  line-height: var(--body-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+form legend {
+  line-height: var(--heading-line-height);
+}
+
+h1,
+.text--xxxl {
+  font-size: var(--text-xxxl);
+}
+
+h2,
+.text--xxl {
+  font-size: var(--text-xxl);
+}
+
+h3,
+.text--xl {
+  font-size: var(--text-xl);
+}
+
+h4,
+.text--lg {
+  font-size: var(--text-lg);
+}
+
+h5,
+.text--md {
+  font-size: var(--text-md);
+}
+
+.text--sm,
+small {
+  font-size: var(--text-sm);
+}
+
+.text--xs {
+  font-size: var(--text-xs);
+}
